@@ -32,6 +32,22 @@ public class BbsController {
 		model.addAttribute("list", list);
 	}
 	
+	@RequestMapping("one1")
+	public void one1(BbsDTO2 dto, Model model) throws Exception {
+		//one요청했을 때 views에 넣고 싶은 처리 내용을 다 써줘야한다.
+		//bbs 상세페이지 + reply 댓글리스트 
+		System.out.println(dto);
+		BbsDTO2 bag = dao.one(dto);
+		List<ReplyDTO> list = dao2.list(dto.getId());
+		
+		System.out.println(list.size());
+		
+		
+		model.addAttribute("bag", bag); //Object(큰) <-- BbsDTO2
+		model.addAttribute("list", list);
+	}
+	
+	
 	@RequestMapping("list")
 	public void list(Model model) throws Exception {
 		//dao를 이용해서 여러개를 받아서 가지고 와주세요.
