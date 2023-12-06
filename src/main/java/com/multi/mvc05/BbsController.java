@@ -32,8 +32,8 @@ public class BbsController {
 		model.addAttribute("list", list);
 	}
 	
-	@RequestMapping("one1")
-	public void one1(BbsDTO2 dto, Model model) throws Exception {
+	@RequestMapping("one2")
+	public void on2e(BbsDTO2 dto, Model model) throws Exception {
 		//one요청했을 때 views에 넣고 싶은 처리 내용을 다 써줘야한다.
 		//bbs 상세페이지 + reply 댓글리스트 
 		System.out.println(dto);
@@ -46,7 +46,6 @@ public class BbsController {
 		model.addAttribute("bag", bag); //Object(큰) <-- BbsDTO2
 		model.addAttribute("list", list);
 	}
-	
 	
 	@RequestMapping("list")
 	public void list(Model model) throws Exception {
