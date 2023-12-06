@@ -12,7 +12,7 @@
 
 <form action="one">
 	보고 싶은 게시판 번호 <input name="id" value="2"> 
-	<button>게시판 상세 정보 요청</button>
+	<button>게시판 상세 정보 요청1111</button>
 </form>
 </body>
 </html>
