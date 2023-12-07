@@ -51,6 +51,7 @@
 			$.ajax({
 				url : "map2",
 				success : function(json) {
+					conosle.log(aaaa);
 					console.log(json);
 					var mapContainer = document.getElementById('map'), // 지도를 표시할 div 
 					mapOption = {
@@ -69,6 +70,10 @@
 					var marker = new kakao.maps.Marker({
 						position : markerPosition
 					});
+					var markerTeam1 = new kakao.maps.Marker({
+						position : markerPosition
+					});
+
 
 					// 마커가 지도 위에 표시되도록 설정합니다
 					marker.setMap(map);
