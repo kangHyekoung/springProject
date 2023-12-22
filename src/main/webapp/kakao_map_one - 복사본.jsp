@@ -9,6 +9,7 @@
 </head>
 <body>
 	<div id="map" style="width: 70%; height: 350px;"></div>
+	<div id="map" style="width: 70%; height: 350px;"></div>
 	<script type="text/javascript" src="resources/js/jquery-3.7.1.js"></script>
 	<script type="text/javascript"
 		src="//dapi.kakao.com/v2/maps/sdk.js?appkey=ea58e2d3bb86934cd33cbd250d4656b6"></script>
