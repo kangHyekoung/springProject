@@ -4,10 +4,11 @@
 <html>
 <head>
 <meta charset="utf-8">
-<title>마커 생성하기</title>
+<title>마커 생성하기111</title>
 
 </head>
 <body>
+	<div id="map" style="width: 70%; height: 350px;"></div>
 	<div id="map" style="width: 70%; height: 350px;"></div>
 	<script type="text/javascript" src="resources/js/jquery-3.7.1.js"></script>
 	<script type="text/javascript"
